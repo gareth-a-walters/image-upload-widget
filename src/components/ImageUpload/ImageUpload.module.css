@@ -1,0 +1,71 @@
+.previewImagesEmptyContainer {
+  width: 100%;
+}
+
+.imageUploadButton {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  border: 1px dashed #95a088;
+  border-radius: 4px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.imageUploadButton:focus {
+  outline: none;
+}
+
+.imageUploadText {
+  color: #070417;
+  font-size: 24px;
+  margin: 30px 0 0 8px;
+}
+
+.imageUploadMicrocopy {
+  color: #a8b39a;
+  font-size: 12px;
+}
+
+.file {
+  display: none;
+}
+
+.previewImagesContainer {
+  display: grid;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.previewImages {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.removeImageBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 100%;
+  border: none;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../assets/icons/remove_img.svg');
+}
+
+.removeImageBtn:focus {
+  outline: none;
+}
+
+.imageInnerWrapper {
+  position: relative;
+}
+
+.addIcon {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
